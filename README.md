@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/banner.jpg" alt="Circuit daigram with water" width="100%">
+
 
 # 🌱 ESP32 Soil Moisture Monitor
 
