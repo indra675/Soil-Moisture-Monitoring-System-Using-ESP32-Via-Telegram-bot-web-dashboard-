@@ -1,7 +1,5 @@
 <div align="center">
 
-
-
 # 🌱 ESP32 Soil Moisture Monitor
 
 ### Live web dashboard + Telegram bot alerts, all running on a single ESP32
@@ -85,8 +83,8 @@ Everything lives in **one Arduino sketch**: `Soil_Moisture.ino`.
 
 | Library | Author |
 |---|---|
-| [UniversalTelegramBot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot) | Brian Lough |
-| [ArduinoJson](https://arduinojson.org/) `6.21.x` | Benoit Blanchon |
+| `UniversalTelegramBot` | Brian Lough |
+| `ArduinoJson` 6.21.x | Benoit Blanchon |
 | `WiFi.h`, `WiFiClientSecure.h`, `WebServer.h` | Included with the ESP32 board package |
 
 ---
@@ -94,7 +92,7 @@ Everything lives in **one Arduino sketch**: `Soil_Moisture.ino`.
 ## 🚀 Quick Start
 
 **1. Create your Telegram bot**
-Message [@BotFather](https://t.me/BotFather) to get a **bot token**, and [@myidbot](https://t.me/myidbot) to get your **chat ID**.
+Message `@BotFather` on Telegram to get a **bot token**, and `@myidbot` to get your **chat ID**.
 
 **2. Install the libraries** from the Arduino Library Manager.
 
@@ -230,16 +228,16 @@ Between 30 % and 40 % nothing is sent, so small fluctuations don't spam you.
 
 <div align="center">
 
-### ## 🙋 Author
+## 🙋 Author
 
 **Galla Indranag**
 
 B.Tech ECE
 Embedded Systems & IoT Analyst (ESSCI-certified), (SRM AP)
 
-- GitHub: [@indra675](https://github.com/indra675)
-- LinkedIn: [linkedin.com/in/gallaindranag](https://linkedin.com/in/gallaindranag)
- 
+GitHub: @indra675
+LinkedIn: linkedin.com/in/gallaindranag
+
 ⭐ If this helped you, give the repo a star!
 
-</div> 
+</div>
